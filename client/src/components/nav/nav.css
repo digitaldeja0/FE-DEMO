@@ -1,0 +1,26 @@
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 213px;
+    padding: 60px;
+}
+
+.navHeaderDiv{
+    margin-bottom: 16px;
+}
+
+.navMainDiv{
+    font-size: 12px;
+}
+
+.navLi{
+    line-height:16px ;
+    padding: 5px;
+}
+
+span{
+    font-size: 9px ;
+}

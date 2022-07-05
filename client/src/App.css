@@ -4,6 +4,10 @@
   --font:'Roboto', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 
 .appDiv{
   font: var(--font);

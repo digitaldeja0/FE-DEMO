@@ -5,6 +5,7 @@
 }
 
 
+
 .nav{
     font-family: var(--font);
     position: fixed;
@@ -17,6 +18,8 @@
     align-items: center;
     width: 213px;
     padding: 60px;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
     /* display: none; */
 }
 
@@ -31,12 +34,30 @@
 .navLi{
     line-height:16px ;
     padding: 5px;
+    scroll-behavior: smooth;
 }
 
-.navLi:hover{
+
+/* unvisited link */
+.navLi:link {
+    color: black
+  }
+  
+  /* visited link */
+  .navLi:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  .navLi:hover {
     cursor: pointer;
     text-decoration: underline;
-}
+  }
+  
+  /* selected link */
+  .navLi:active {
+    color: black;
+  }
 
 
 span{

@@ -4,10 +4,29 @@
   --font:'Roboto', sans-serif;
 }
 
-body{
+
+.appDiv{
   font: var(--font);
+  font-size: 16px;
+}
+
+p{
+  font-size: 1em ;
+}
+
+h3{
+  font-size: 2.5em;
 }
 
 .appDiv{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+@media screen and (min-width: 1375px){
+  .appDiv{
+    display: flex;
+  }
+}
+

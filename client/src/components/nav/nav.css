@@ -52,12 +52,17 @@ a:link {
   /* mouse over link */
 a:hover {
     cursor: pointer;
-  
-    border: 1px black solid;
-    background-color: black;
-    color: white;
-    transition: .5s;
+    
   }
+  .navLi:hover{
+    border: 1px black solid;
+    background-color: rgb(11, 11, 11);
+    color: white;
+    transition: 1s;
+  }
+
+
+
  
   
   /* selected link */

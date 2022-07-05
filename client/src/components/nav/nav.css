@@ -35,7 +35,9 @@
 
 .navLi:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
+
 
 span{
     font-size: 9px ;
